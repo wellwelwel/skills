@@ -1,6 +1,6 @@
 # Skills
 
-🎓 The conventions I would otherwise repeat in every project, written once and installed wherever I need them.
+🎓 Personal conventions I would otherwise repeat in every project, written once and installed wherever I need them.
 
 They are opinionated on purpose. Each one carries how I want code written, how prose is edited, and how an interface is verified, so an agent starts a new project already knowing my defaults instead of guessing them. None of them assumes a stack, a framework, or a repository layout, and where a project already has an established convention, the project wins.
 
