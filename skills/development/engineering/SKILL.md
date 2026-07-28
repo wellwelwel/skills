@@ -4,7 +4,7 @@ description: Authoritative engineering reference covering code conventions, comm
 user-invocable: true
 metadata:
   author: Weslley Araújo
-  version: '2026.7.28'
+  version: '1.0.0'
   source: https://github.com/wellwelwel/skills
 ---
 

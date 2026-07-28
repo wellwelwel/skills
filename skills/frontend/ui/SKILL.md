@@ -4,7 +4,7 @@ description: Design engineering principles for making interfaces feel polished. 
 user-invocable: true
 metadata:
   author: Weslley Araújo
-  version: '2026.7.28'
+  version: '1.0.0'
   source: https://github.com/wellwelwel/skills, adapted from https://github.com/jakubkrehel/make-interfaces-feel-better/tree/384562064fcdd99778fcbafd8729626fe6aab02f
 ---
 
