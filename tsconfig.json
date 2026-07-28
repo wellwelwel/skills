@@ -1,0 +1,25 @@
+{
+  "include": ["skills"],
+  "exclude": ["temp"],
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noImplicitAny": true,
+    "allowJs": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true
+  }
+}
