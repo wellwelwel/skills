@@ -2,6 +2,10 @@
 name: cdp
 description: Visual verification of a running page through Chrome's DevTools Protocol, capturing screenshots and measuring the rendered DOM. Use when a frontend change can only be confirmed once rendered, for layout, spacing, alignment, overflow, or theme tokens.
 user-invocable: true
+metadata:
+  author: Weslley Araújo
+  version: '2026.7.28'
+  source: https://github.com/wellwelwel/skills
 ---
 
 # Rendered result verification

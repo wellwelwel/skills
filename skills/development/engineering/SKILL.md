@@ -2,6 +2,10 @@
 name: engineering
 description: Authoritative engineering reference covering code conventions, comments, TypeScript type rules, testing, and commit messages. Use before writing or changing any source file, and when suggesting a commit message.
 user-invocable: true
+metadata:
+  author: Weslley Araújo
+  version: '2026.7.28'
+  source: https://github.com/wellwelwel/skills
 ---
 
 # Engineering

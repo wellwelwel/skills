@@ -2,6 +2,10 @@
 name: writer
 description: Authoritative reference for writing the project's prose. Use before writing, editing, or translating any document, command text, comment, or user-facing message.
 user-invocable: true
+metadata:
+  author: Weslley Araújo
+  version: '2026.7.28'
+  source: https://github.com/wellwelwel/skills
 ---
 
 # Text writing
