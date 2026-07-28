@@ -2,3 +2,12 @@ node_modules
 /temp/
 /draft/
 .DS_Store
+
+# Lagune
+/.lagune/templates/
+/.lagune/hooks/
+/.lagune/proofs/
+/.lagune/specializations.md
+/.lagune/skills/*
+/**/lagune.*
+/**/lagune/
