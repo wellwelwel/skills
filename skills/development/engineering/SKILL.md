@@ -4,7 +4,7 @@ description: Authoritative engineering reference covering code conventions, comm
 user-invocable: true
 metadata:
   author: Weslley Araújo
-  version: '1.1.0'
+  version: '1.2.0'
   source: https://github.com/wellwelwel/skills
 ---
 
@@ -51,6 +51,7 @@ Where the project already has an established convention that contradicts one bel
 
 - **`any` and `as unknown as` are forbidden.** No exceptions.
 - **Prefer `type`.** Use `interface` only when a class is meant to implement it.
+- **No pass-through aliases.** A `type` whose whole definition is another named type is a duplicated type under a second name.
 - Reach for `as` last. Prefer a direct type annotation or `satisfies`. A plain `as` cast is allowed, but only when neither of those fits.
 - **Keep type declarations together.** When the project dedicates a place to them (a `types` directory, for example), declare them there instead of scattering `type` and `interface` across the codebase.
 
