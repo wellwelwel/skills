@@ -4,7 +4,7 @@ description: Authoritative reference for deciding whether a test should exist an
 user-invocable: true
 metadata:
   author: Weslley Araújo
-  version: '1.0.0'
+  version: '1.0.1'
   source: https://github.com/wellwelwel/skills
 ---
 
@@ -46,7 +46,7 @@ The test's name states the promise in the domain's terms, stays valid after a re
 - **Write the expected value by hand.** State the literal value the promise requires. Do not derive it from the formula or helper under test, which could carry the same error as the result.
 - **Assert the complete promise.** Check the required values, not merely that a result exists or has a type. Presence is enough only when it is the entire promise, such as flagging an invalid field regardless of the message.
 - **Deterministic or removed.** A test whose verdict depends on the real clock, network availability, execution order, or uncontrolled randomness must be made repeatable or removed.
-- **Organize cases in a table.** When several inputs follow the same rule, use one named case per row instead of duplicating test logic.
+- **Organize cases in a table.** When several inputs follow the same rule, use one named case per row (parameterized tests) instead of duplicating test logic.
 - **One file per subject, not per source file.** Group a subject's promises in one file, regardless of where their implementation lives. A source file does not need a corresponding test file.
 
 ## When a test fails
