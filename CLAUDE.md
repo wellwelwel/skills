@@ -14,7 +14,7 @@ Adding, renaming, or removing a skill means updating the top-level [README.md](.
 
 One `SKILL.md` holds the whole skill for as long as it stays readable. When it stops being readable, move the depth into sibling files next to it and link them from `SKILL.md`, which stays the entry point and the index. Executable helpers live in a `tools` folder beside the `SKILL.md` and are invoked through the installed skill's own path, never through a path in the consuming project.
 
-Prose in this repo follows [writer](./skills/texts/writer/SKILL.md), including the READMEs and this file. TypeScript follows [engineering](./skills/development/engineering/SKILL.md). The skills govern the repo that ships them.
+Prose in this repo follows [writer](./skills/texts/writer/SKILL.md), including the READMEs and this file. TypeScript follows [engineering](./skills/development/engineering/SKILL.md), and tests also follow [testing](./skills/development/testing/SKILL.md). The skills govern the repo that ships them.
 
 Adapted material keeps its attribution in the skill and in the README's Credits section, pinned to the commit it was adapted from, so the reference keeps describing what was actually taken.
 

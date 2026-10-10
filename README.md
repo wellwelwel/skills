@@ -25,6 +25,7 @@ Pick the skills you want and the agents to install them on. They land in your re
 ### Development
 
 - **[engineering](./skills/development/engineering/SKILL.md)**: the conventions behind every source file, covering naming, control flow, comments, TypeScript type rules, testing, and commit messages.
+- **[testing](./skills/development/testing/SKILL.md)**: when a test should exist, what it must assert, and how to keep it tied to behavior instead of implementation.
 
 ### Frontend
 

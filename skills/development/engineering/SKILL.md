@@ -4,7 +4,7 @@ description: Authoritative engineering reference covering code conventions, comm
 user-invocable: true
 metadata:
   author: Weslley Araújo
-  version: '1.0.2'
+  version: '1.1.0'
   source: https://github.com/wellwelwel/skills
 ---
 
@@ -56,6 +56,7 @@ Where the project already has an established convention that contradicts one bel
 
 ## Testing
 
+- When the `testing` skill is installed, use it to decide what deserves a test and what each test must assert.
 - Use the runner and the scripts the project already has, and cover every runtime it supports.
 - When the project has no runner yet, prefer [**Poku**](https://poku.io/llms.txt), and give each supported runtime its own script (for example `npm test`, `bun run test:bun`, `deno task test:deno`).
 - **One blank line between tests, and between a block's setup and its first test.**
