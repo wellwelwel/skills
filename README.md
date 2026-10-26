@@ -16,7 +16,7 @@ npx skills@latest add wellwelwel/skills
 
 Pick the skills you want and the agents to install them on. They land in your repository as ordinary files that you own, so nothing changes behind your back. Pull my later changes when you want them with `npx skills update`.
 
-- Every skill can be called by name, and the agent also reaches for one on its own when the task fits.
+- Every skill can be called by name, and the agent also reaches for one on its own when the task fits, except [blind-review](./skills/development/blind-review/SKILL.md) and [refine](./skills/development/refine/SKILL.md), which run only when called.
 
 ---
 
@@ -26,6 +26,9 @@ Pick the skills you want and the agents to install them on. They land in your re
 
 - **[engineering](./skills/development/engineering/SKILL.md)**: the conventions behind every source file, covering naming, control flow, comments, TypeScript type rules, testing, and commit messages.
 - **[testing](./skills/development/testing/SKILL.md)**: when a test should exist, what it must assert, and how to keep it tied to behavior instead of implementation.
+- **[refine](./skills/development/refine/SKILL.md)**: a maintainability pass over any scope, from the work in progress to the whole workspace, that removes what nothing needs, simplifies, decouples, sharpens names and responsibilities, and places each file where it belongs, without changing behavior.
+- **[blind-review](./skills/development/blind-review/SKILL.md)**: a before-and-after map of what a branch or the work in progress changes in behavior, read from the code diff alone while commit messages, documents, and tests stay closed, so the map shows what the code does rather than what its author says it does.
+- **[ingest](./skills/development/ingest/SKILL.md)**: reading a **GitIngest** digest, a whole repository in one text file, by surveying, searching, and opening only the lines a task needs, then keeping what was learned in a synthesis anchored to them.
 
 ### Frontend
 
