@@ -24,7 +24,7 @@ Pick the skills you want and the agents to install them on. They land in your re
 
 ### Development
 
-- **[engineering](./skills/development/engineering/SKILL.md)**: the conventions behind every source file, covering naming, control flow, comments, TypeScript type rules, testing, and commit messages.
+- **[engineering](./skills/development/engineering/SKILL.md)**: the conventions behind every source file, covering naming, control flow, performance, comments, TypeScript type rules, testing, and commit messages.
 - **[testing](./skills/development/testing/SKILL.md)**: when a test should exist, what it must assert, and how to keep it tied to behavior instead of implementation.
 - **[refine](./skills/development/refine/SKILL.md)**: a maintainability pass over any scope, from the work in progress to the whole workspace, that removes what nothing needs, simplifies, decouples, sharpens names and responsibilities, and places each file where it belongs, without changing behavior.
 - **[blind-review](./skills/development/blind-review/SKILL.md)**: a before-and-after map of what a branch or the work in progress changes in behavior, read from the code diff alone while commit messages, documents, and tests stay closed, so the map shows what the code does rather than what its author says it does.
