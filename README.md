@@ -28,6 +28,7 @@ Pick the skills you want and the agents to install them on. They land in your re
 - **[testing](./skills/development/testing/SKILL.md)**: when a test should exist, what it must assert, and how to keep it tied to behavior instead of implementation.
 - **[refine](./skills/development/refine/SKILL.md)**: a maintainability pass over any scope, from the work in progress to the whole workspace, that removes what nothing needs, simplifies, decouples, sharpens names and responsibilities, and places each file where it belongs, without changing behavior.
 - **[blind-review](./skills/development/blind-review/SKILL.md)**: a before-and-after map of what a branch or the work in progress changes in behavior, read from the code diff alone while commit messages, documents, and tests stay closed, so the map shows what the code does rather than what its author says it does.
+- **[copilot-review](./skills/development/copilot-review/SKILL.md)**: a local stand-in for **GitHub Copilot** _(not affiliated)_ code review that reports every finding on a pull request's changes in one pass, graded with **Copilot**'s severity levels, and with `--fix` keeps fixing and re-reviewing with a fresh reviewer until no High or Medium finding remains.
 - **[ingest](./skills/development/ingest/SKILL.md)**: reading a **GitIngest** digest, a whole repository in one text file, by surveying, searching, and opening only the lines a task needs, then keeping what was learned in a synthesis anchored to them.
 
 ### Frontend
